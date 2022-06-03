@@ -1,0 +1,487 @@
+/*INSERTAMOS UNA IMAGEN DE FONDO EN TODA LA PANTALLA*/
+body
+{
+  background-image: url("../imagenes/imagen1.jpg");
+  background-size: cover;
+  position:absolute;
+}
+/*INSERTAMOS EL LOGO CON SUS MEDIDAS Y POSICIÓN*/
+#logo
+{
+
+  width: 300px;
+  height: 300px;
+  margin-top: -40px;
+  position: relative;
+}
+
+/*DISEÑAMOS LA CAJA QUE CONTIENE EL TITULO*/
+.Titulo
+{
+
+  Width: 700px;
+  height: 70px;
+  margin-top: -250px;
+  margin-left: 350px;
+  border-right: 0.5px solid;
+  border-bottom: 0.5px solid;
+  /*border: 3px solid;*/
+  border-color: #4EE2EC;
+  background-color: #FFE153;
+  opacity: 0.88;
+  border-radius: 5px 10px 15px 20px;
+  box-shadow: #4EE2EC -10px -10px 10px;
+}
+/*LE DAMOS ESTILO AL TITULO 1*/
+#titulo1
+{
+  line-height: 150%;
+
+  font-family: Monotype Corsiva;
+  font: bold;
+  font-size: 50px;
+  color: #FFFFFF;
+  text-align: center;
+
+}
+
+/*DISEÑAMOS NUESTRA CAJA QUE CONTIENE LAS DEMÁS PÁGINAS PARA NAVEGAR*/
+.Navegador
+{
+    Width: 630px;
+    height: 60px;
+    border-radius: 20px 15px 10px 5px;
+    box-shadow: #FFFFFF 10px 10px 10px;
+    border-top: 0.5px solid;
+    border-left: 0.5px solid;
+    border-color: #FFFFFF;
+    display: inline-block;
+    margin-left: 380px;
+    margin-top: 40px;
+    background-color:#FF79BC;
+    opacity: 0.88;
+
+}
+/*LES DAMOS ESTILO A LAS PALABRAS PARTES DEL NAVEGADOR*/
+#inicio
+{
+  font-family: Monotype Corsiva;
+  color: #FFFFFF;
+  font-size: 40px;
+  float: left;
+  margin-top: -0.5px;
+  margin-left: 40px;
+
+}
+
+#menu
+{
+  font-family: Monotype Corsiva;
+  color: #FFFFFF;
+  font-size: 40px;
+  float: left;
+  margin-top: -0.5px;
+  margin-left: 40px;
+
+}
+
+#galeria
+{
+  font-family: Monotype Corsiva ;
+  color: #FFFFFF;
+  font-size: 40px;
+  float: left;
+  margin-top: -0.5px;
+  margin-left: 40px;
+}
+
+#promociones
+{
+  font-family: Monotype Corsiva;
+  color: #FFFFFF;
+  font-size: 40px;
+  float: left;
+  margin-top: -0.5px;
+  margin-left: 40px;
+}
+
+/*DISEÑAMOS LA CAJA QUE CONTENDRA LOS CUADROS DE INFORMACIÓN DEL MENÚ DE COMIDA*/
+.menu
+{
+  margin-top: 50px;
+  margin-left: 50px;
+  margin-bottom: 50px;
+  height: 1600px;
+  width: 1200px;
+  border-right: 0.5px solid;
+  border-bottom: 0.5px solid;
+  border-color: #FF79BC;
+  background-color: #FFFFFF;
+  opacity: 0.8;
+  border-radius: 5px 10px 15px 20px;
+  box-shadow: #FF79BC -10px -10px 10px;
+}
+
+/*LE PONEMOS ESTILO AL TITULO DE "COMIDAS"*/
+#titulo2
+{
+  font-family: Gabriola;
+  font-size: 40px;
+  text-align: center;
+  background-color: #F88017;
+}
+
+/*LES DAMOS ESTILOS A CADA UNO DE LOS CUADROS DE LAS COMIDAS DEL MENÚ*/
+.Huaraches
+{
+  display: inline-block;
+  margin-left: 50px;
+  width: 300px;
+  border: 1px solid #F88017;
+  font-family: Gabriola;
+  font-size: 30px;
+  line-height: 50%;
+
+}
+
+#imgHuarache
+{
+
+  width: 150px;
+  height: 150px;
+  margin-left: 125px;
+  margin-top: -125px;
+  opacity: 1;
+}
+
+.Pozole
+{
+  display: inline-block;
+  margin-left: 50px;
+  width: 350px;
+  border: 1px solid #F88017;
+  font-family: Gabriola;
+  font-size: 30px;
+  line-height: 50%;
+
+}
+
+#imgPozole
+{
+  width: 150px;
+  height: 150px;
+  margin-left: 180px;
+  margin-top: -100px;
+  opacity: 1;
+}
+
+.Tacos
+{
+  display: inline-block;
+  margin-left: 50px;
+  width: 350px;
+  border: 1px solid #F88017;
+  font-family: Gabriola;
+  font-size: 30px;
+  line-height: 50%;
+
+}
+
+#imgTacos
+{
+
+  width: 150px;
+  height: 150px;
+  margin-left: 180px;
+  margin-top: -100px;
+  opacity: 1;
+}
+
+.Sopes
+{
+  display: inline-block;
+  margin-left: 50px;
+  margin-top: 50px;
+  width: 350px;
+  border: 1px solid #F88017;
+  font-family: Gabriola;
+  font-size: 30px;
+  line-height: 50%;
+
+}
+
+#imgSopes
+{
+
+  width: 150px;
+  height: 150px;
+  margin-left: 190px;
+  margin-top: -200px;
+  opacity: 1;
+}
+
+.TacosDorados
+{
+  display: inline-block;
+  margin-left: 50px;
+  width: 350px;
+  border: 1px solid #F88017;
+  font-family: Gabriola;
+  font-size: 30px;
+  line-height: 50%;
+
+}
+
+#imgTacosDorados
+{
+
+  width: 150px;
+  height: 150px;
+  margin-left: 180px;
+  margin-top: -100px;
+  opacity: 1;
+}
+
+.Tamales
+{
+  display: inline-block;
+  margin-left: 50px;
+  width: 300px;
+  border: 1px solid #F88017;
+  font-family: Gabriola;
+  font-size: 30px;
+  line-height: 50%;
+
+}
+
+#imgTamales
+{
+
+  width: 150px;
+  height: 150px;
+  margin-left: 130px;
+  margin-top: -130px;
+  opacity: 1;
+}
+
+.Quesadillas
+{
+  display: inline-block;
+  margin-top: 50px;
+  margin-left: 50px;
+  width: 320px;
+  border: 1px solid #F88017;
+  font-family: Gabriola;
+  font-size: 30px;
+  line-height: 50%;
+
+}
+
+#imgQuesadillas
+{
+
+  width: 150px;
+  height: 150px;
+  margin-left: 160px;
+  margin-top: -130px;
+  opacity: 1;
+}
+
+.Gorditas
+{
+  display: inline-block;
+  margin-top: 50px;
+  margin-left: 50px;
+  width: 320px;
+  border: 1px solid #F88017;
+  font-family: Gabriola;
+  font-size: 30px;
+  line-height: 50%;
+
+}
+
+#imgGorditas
+{
+
+  width: 150px;
+  height: 150px;
+  margin-left: 160px;
+  margin-top: -130px;
+  opacity: 1;
+}
+
+.Pambazos
+{
+  display: inline-block;
+  margin-top: -400px;
+  margin-left: 50px;
+  width: 320px;
+  border: 1px solid #F88017;
+  font-family: Gabriola;
+  font-size: 30px;
+  line-height: 50%;
+
+}
+
+#imgPambazos
+{
+
+  width: 100px;
+  height: 100px;
+  margin-left: 190px;
+  margin-top: -50px;
+  opacity: 1;
+}
+/*LE PONEMOS ESTILO AL TITULO DE "BEBIDAS"*/
+#titulo3
+{
+  margin-top: 50px;
+  font-family: Gabriola;
+  font-size: 40px;
+  text-align: center;
+  background-color: #4EE2EC;
+}
+/*lES DAMOS ESTILOS A LOS CUADROS DE BEBIDAS DEL MENÚ*/
+.Aguas
+{
+  display: inline-block;
+  margin-left: 50px;
+  width: 300px;
+  border: 1px solid #4EE2EC;
+  font-family: Gabriola;
+  font-size: 30px;
+  line-height: 50%;
+
+}
+
+#imgAguas
+{
+
+  width: 100px;
+  height: 100px;
+  margin-left: 160px;
+  margin-top: -90px;
+  opacity: 1;
+}
+
+.Cafe
+{
+  display: inline-block;
+  margin-left: 50px;
+  width: 300px;
+  border: 1px solid #4EE2EC;
+  font-family: Gabriola;
+  font-size: 30px;
+  line-height: 50%;
+
+}
+
+#imgCafe
+{
+
+  width: 100px;
+  height: 100px;
+  margin-left: 160px;
+  margin-top: -70px;
+  opacity: 1;
+}
+
+.Refrescos
+{
+  display: inline-block;
+  margin-left: 50px;
+  width: 300px;
+  border: 1px solid #4EE2EC;
+  font-family: Gabriola;
+  font-size: 30px;
+  line-height: 50%;
+
+}
+
+#imgRefrescos
+{
+
+  width: 100px;
+  height: 100px;
+  margin-top: -250px;
+  margin-left: 160px;
+  position: relative;
+  opacity: 1;
+}
+/*LE PONEMOS ESTILO AL TITULO DE "POSTRES"*/
+#titulo4
+{
+  text-align: center;
+  font-size: 40px;
+  font-family: Gabriola;
+  background-color: #FFE153;
+}
+/*LES DAMOS ESTILO A LOS CUADROS DE LOS POSTRES DEL MENÚ DE COMIDA.*/
+.Churros
+{
+  display: inline-block;
+  margin-left: 50px;
+  width: 300px;
+  border: 1px solid #FFE153;
+  font-family: Gabriola;
+  font-size: 30px;
+  line-height: 50%;
+
+}
+
+#imgChurros
+{
+
+  width: 100px;
+  height: 100px;
+  margin-top: -250px;
+  margin-left: 180px;
+  position: relative;
+  opacity: 1;
+}
+
+.Biñuelos
+{
+  display: inline-block;
+  margin-left: 50px;
+  width: 300px;
+  border: 1px solid #FFE153;
+  font-family: Gabriola;
+  font-size: 30px;
+  line-height: 50%;
+
+}
+
+#imgBiñuelos
+{
+
+  width: 100px;
+  height: 100px;
+  margin-top: -250px;
+  margin-left: 180px;
+  position: relative;
+  opacity: 1;
+}
+
+.Arroz
+{
+  display: inline-block;
+  margin-left: 50px;
+  width: 300px;
+  border: 1px solid #FFE153;
+  font-family: Gabriola;
+  font-size: 30px;
+  line-height: 50%;
+
+}
+
+#imgArroz
+{
+
+  width: 100px;
+  height: 100px;
+  margin-top: -250px;
+  margin-left: 180px;
+  position: relative;
+  opacity: 1;
+}

@@ -1,0 +1,173 @@
+/*INSERTAMOS UNA IMAGEN DE FONDO EN TODA LA PANTALLA*/
+body
+{
+
+  background-image: url("../imagenes/imagen3.jpg");
+  background-size: cover;
+  position:absolute;
+}
+/*INSERTAMOS EL LOGO CON SUS MEDIDAS Y POSICIÓN*/
+#logo
+{
+
+  width: 300px;
+  height: 300px;
+  margin-top: -40px;
+  position: relative;
+}
+
+/*DISEÑAMOS LA CAJA QUE CONTIENE EL TITULO*/
+.Titulo
+{
+
+  Width: 700px;
+  height: 150px;
+  margin-top: -220px;
+  margin-left: 350px;
+  border-right: 0.5px solid;
+  border-bottom: 0.5px solid;
+  /*border: 3px solid;*/
+  border-color: #FFFFFF;
+  background-color: #FF79BC;
+  opacity: 0.88;
+  border-radius: 5px 10px 15px 20px;
+  box-shadow: #FFFFFF -10px -10px 10px;
+}
+/*LE DAMOS ESTILO AL TITULO 1*/
+#titulo1
+{
+  margin-top: -2px;
+  font-family: Monotype Corsiva;
+  font: bold;
+  font-size: 60px;
+  color: #FFFFFF;
+  text-align: center;
+
+}
+/*LE DAMOS ESTILO AL TITULO 2*/
+#titulo2
+{
+    margin-top: -30px;
+    text-align: center;
+    font-size: 50px;
+    font: bold;
+    color: #FFFFFF;
+    font-family: Monotype Corsiva;
+}
+/*DISEÑAMOS NUESTRA CAJA QUE CONTIENE LAS DEMÁS PÁGINAS PARA NAVEGAR*/
+.Navegador
+{
+    Width: 630px;
+    height: 60px;
+    border-radius: 20px 15px 10px 5px;
+    box-shadow: #4EE2EC 10px 10px 10px;
+    border-top: 0.5px solid;
+    border-left: 0.5px solid;
+    border-color: #4EE2EC;
+    margin-left: 380px;
+    margin-top: 40px;
+    background-color: #FFE153;
+    opacity: 0.88;
+
+}
+/*LES DAMOS ESTILO A LAS PALABRAS PARTES DEL NAVEGADOR*/
+#inicio
+{
+  font-family: Monotype Corsiva;
+  color: #FFFFFF;
+  font-size: 40px;
+  float: left;
+  margin-top: -0.5px;
+  margin-left: 40px;
+
+}
+
+#menu
+{
+  font-family: Monotype Corsiva;
+  color: #FFFFFF;
+  font-size: 40px;
+  float: left;
+  margin-top: -0.5px;
+  margin-left: 40px;
+
+}
+
+#galeria
+{
+  font-family: Monotype Corsiva ;
+  color: #FFFFFF;
+  font-size: 40px;
+  float: left;
+  margin-top: -0.5px;
+  margin-left: 40px;
+}
+
+#promociones
+{
+  font-family: Monotype Corsiva;
+  color: #FFFFFF;
+  font-size: 40px;
+  float: left;
+  margin-top: -0.5px;
+  margin-left: 40px;
+}
+
+/*DISEÑAMOS LA CAJA QUE CONTENRA EL TEXTO DE PRESENTACIÓN DE NUESTRA PÁGINA*/
+.Principal
+{
+  margin-top: 50px;
+
+  height: 350px;
+  border-right: 0.5px solid;
+  border-bottom: 0.5px solid;
+  border-color: #FFE153;
+  background-color: #FFFFFF;
+  opacity: 0.8;
+  border-radius: 5px 10px 15px 20px;
+  box-shadow: #FFE153 -10px -10px 10px;
+}
+
+/*LE DAMOS ESTILO AL TITULO DE LA PRESENTACIÓN*/
+#tituloPrincipal
+{
+  font-family: Gabriola;
+  font-size: 40px;
+  text-align: center;
+}
+
+/*LE DAMOS ESTILO AL TEXTO DE LA PRESENTACIÓN.*/
+#parrafoPrincipal
+{
+  margin-top:-50px;
+  font-family: Gabriola;
+  font-size: 30px;
+  text-align: justify;
+}
+
+#separador
+{
+  margin-top: 50px;
+  border: 1.8px solid;
+  border-color: #FFFFFF;
+}
+
+/*DISEÑAMOS LA CAJA QUE CONTENDRA LA INFORMACIÓN DE PIE DE PÁGINA*/
+.PieDePagina
+{
+  background-color: #FFFFFF;
+  box-shadow: #4EE2EC 10px 10px 10px;
+  opacity: 0.8;
+}
+
+
+/*LE DAMOS ESTILO AL TEXTO DE PIE DE PÁGINA.*/
+#creditos
+{
+  text-align: center;
+  font-family: Monotype Corsiva;
+  font-size: 25px;
+  line-height: 50%;
+  margin-top: -7px;
+
+}

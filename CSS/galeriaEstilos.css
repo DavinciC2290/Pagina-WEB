@@ -1,0 +1,193 @@
+/*INSERTAMOS UNA IMAGEN DE FONDO EN TODA LA PANTALLA*/
+body
+{
+  background-image: url("../imagenes/imagen3.jpg");
+  background-size: cover;
+  position:absolute;
+
+}
+/*INSERTAMOS EL LOGO CON SUS MEDIDAS Y POSICIÓN*/
+#logo
+{
+
+  width: 300px;
+  height: 300px;
+  margin-top: -40px;
+  position: relative;
+}
+
+/*DISEÑAMOS LA CAJA QUE CONTIENE EL TITULO*/
+.Titulo
+{
+
+  Width: 700px;
+  height: 70px;
+  margin-top: -250px;
+  margin-left: 350px;
+  border-right: 0.5px solid;
+  border-bottom: 0.5px solid;
+  /*border: 3px solid;*/
+  border-color: #FFFFFF;
+  background-color: #FF79BC; /*#FF79BC*/
+  opacity: 0.88;
+  border-radius: 5px 10px 15px 20px;
+  box-shadow: #FFFFFF -10px -10px 10px;
+}
+/*LE DAMOS ESTILO AL TITULO 1*/
+#titulo1
+{
+  line-height: 150%;
+
+  font-family: Monotype Corsiva;
+  font: bold;
+  font-size: 50px;
+  color: #FFFFFF;
+  text-align: center;
+
+}
+
+/*DISEÑAMOS NUESTRA CAJA QUE CONTIENE LAS DEMÁS PÁGINAS PARA NAVEGAR*/
+.Navegador
+{
+    Width: 630px;
+    height: 60px;
+    border-radius: 20px 15px 10px 5px;
+    box-shadow: #4EE2EC 10px 10px 10px; /*#4EE2EC*/
+    border-top: 0.5px solid;
+    border-left: 0.5px solid;
+    border-color: #4EE2EC;
+    display: inline-block;
+    margin-left: 380px;
+    margin-top: 40px;
+    background-color:#FFE153; /*#FFE153*/
+    opacity: 0.88;
+
+}
+/*LES DAMOS ESTILO A LAS PALABRAS PARTES DEL NAVEGADOR*/
+#inicio
+{
+  font-family: Monotype Corsiva;
+  color: #FFFFFF;
+  font-size: 40px;
+  float: left;
+  margin-top: -0.5px;
+  margin-left: 40px;
+
+}
+
+#menu
+{
+  font-family: Monotype Corsiva;
+  color: #FFFFFF;
+  font-size: 40px;
+  float: left;
+  margin-top: -0.5px;
+  margin-left: 40px;
+
+}
+
+#galeria
+{
+  font-family: Monotype Corsiva ;
+  color: #FFFFFF;
+  font-size: 40px;
+  float: left;
+  margin-top: -0.5px;
+  margin-left: 40px;
+}
+
+#promociones
+{
+  font-family: Monotype Corsiva;
+  color: #FFFFFF;
+  font-size: 40px;
+  float: left;
+  margin-top: -0.5px;
+  margin-left: 40px;
+}
+
+/*LE DAMOS ESTILO AL TITULO 2*/
+#titulo2
+{
+  font-family: Gabriola;
+  font-size: 40px;
+  text-align: center;
+  opacity: 0.8;
+  width: 1250px;
+  margin-left: 50px;
+  background-color: #4EE2EC;
+  border-right: 0.5px solid;
+  border-bottom: 0.5px solid;
+  border-color: #FFFFFF;
+  box-shadow: #FFFFFF -10px -10px 10px;
+
+}
+
+/*DISEÑAMOS LA CAJA QUE CONTENDRA LAS IMÁGENES DE LA GALERIA*/
+.Galeria
+{
+  width: 1250px;
+  height: 1280px;
+  background-color: #FFE153;
+  opacity: 0.9;
+  margin-left: 50px;
+  margin-top: -35px;
+  margin-bottom: 50px;
+  box-shadow: #FFFFFF -10px -10px 10px;
+  border-radius: 0px 0px 10px 10px;
+  border-right: 0.5px solid;
+  border-bottom: 0.5px solid;
+  border-color: #FFFFFF;
+}
+
+/*LES DAMOS ESTILO Y DISEÑO A CADA UNA DE LAS IMAGENES QUE CONTENDRA LA GALERÍA*/
+#img1
+{
+  width: 350px;
+  height: 350px;
+  margin-left: 150px;
+  margin-top: 30px;
+  border: 7px solid;
+  border-color: #FFFFFF;
+}
+
+#img2
+{
+  width: 500px;
+  height: 350px;
+  margin-left: 150px;
+  margin-top: 30px;
+  margin-top: -20px;
+  border: 7px solid;
+  border-color: #FFFFFF;
+}
+
+#img3
+{
+  width: 350px;
+  height: 350px;
+  margin-left: 150px;
+  margin-top: 50px;
+  border: 7px solid;
+  border-color: #FFFFFF;
+}
+
+#img4
+{
+  width: 350px;
+  height: 350px;
+  margin-left: 150px;
+  margin-top: 50px;
+  border: 7px solid;
+  border-color: #FFFFFF;
+}
+
+#img5
+{
+  width: 700px;
+  height: 350px;
+  margin-left: 300px;
+  margin-top: 50px;
+  border: 7px solid;
+  border-color: #FFFFFF;
+}
