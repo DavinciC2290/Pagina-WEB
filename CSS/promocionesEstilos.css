@@ -1,0 +1,258 @@
+/*INSERTAMOS UNA IMAGEN DE FONDO EN TODA LA PANTALLA*/
+body
+{
+  background-image: url("../imagenes/imagen1.jpg");
+  background-size: cover;
+  position:absolute;
+}
+/*INSERTAMOS EL LOGO CON SUS MEDIDAS Y POSICIÓN*/
+#logo
+{
+
+  width: 300px;
+  height: 300px;
+  margin-top: -40px;
+  position: relative;
+}
+
+/*DISEÑAMOS LA CAJA QUE CONTIENE EL TITULO*/
+.Titulo
+{
+
+  Width: 700px;
+  height: 70px;
+  margin-top: -250px;
+  margin-left: 350px;
+  border-right: 0.5px solid;
+  border-bottom: 0.5px solid;
+  /*border: 3px solid;*/
+  border-color: #4EE2EC;
+  background-color: #FFE153;
+  opacity: 0.88;
+  border-radius: 5px 10px 15px 20px;
+  box-shadow: #4EE2EC -10px -10px 10px;
+}
+/*LE DAMOS ESTILO AL TITULO 1*/
+#titulo1
+{
+  line-height: 150%;
+
+  font-family: Monotype Corsiva;
+  font: bold;
+  font-size: 50px;
+  color: #FFFFFF;
+  text-align: center;
+
+}
+
+/*DISEÑAMOS NUESTRA CAJA QUE CONTIENE LAS DEMÁS PÁGINAS PARA NAVEGAR*/
+.Navegador
+{
+    Width: 630px;
+    height: 60px;
+    border-radius: 20px 15px 10px 5px;
+    box-shadow: #FFFFFF 10px 10px 10px;
+    border-top: 0.5px solid;
+    border-left: 0.5px solid;
+    border-color: #FFFFFF;
+    display: inline-block;
+    margin-left: 380px;
+    margin-top: 40px;
+    background-color:#FF79BC;
+    opacity: 0.88;
+
+}
+/*LES DAMOS ESTILO A LAS PALABRAS PARTES DEL NAVEGADOR*/
+#inicio
+{
+  font-family: Monotype Corsiva;
+  color: #FFFFFF;
+  font-size: 40px;
+  float: left;
+  margin-top: -0.5px;
+  margin-left: 40px;
+
+}
+
+#menu
+{
+  font-family: Monotype Corsiva;
+  color: #FFFFFF;
+  font-size: 40px;
+  float: left;
+  margin-top: -0.5px;
+  margin-left: 40px;
+
+}
+
+#galeria
+{
+  font-family: Monotype Corsiva ;
+  color: #FFFFFF;
+  font-size: 40px;
+  float: left;
+  margin-top: -0.5px;
+  margin-left: 40px;
+}
+
+#promociones
+{
+  font-family: Monotype Corsiva;
+  color: #FFFFFF;
+  font-size: 40px;
+  float: left;
+  margin-top: -0.5px;
+  margin-left: 40px;
+}
+
+/*LE DAMOS ESTILO AL TITULO DE LAS "PROMOCIONES" */
+#titulo2
+{
+  background-color: #F88017;
+  margin-left: 50px;
+  width: 1250px;
+  opacity: 0.75;
+  box-shadow: #FFFFFF -10px -10px 10px;
+  border-right: 0.5px solid;
+  border-bottom: 0.5px solid;
+  border-color: #FFFFFF;
+  font-family: Gabriola;
+  font-size: 40px;
+  text-align: center;
+}
+
+/*DISEÑAMOS LA CAJA DE LA 1RA PROMOCION, EL TITULO Y LA INFORMACIÓN*/
+.CajaPromo1
+{
+  width: 350px;
+  height: 350px;
+  margin-left: 150px;
+ display: inline-block;
+  background-color: #4EE2EC;
+  opacity: 0.88;
+  box-shadow: #FFFFFF 20px 20px 10px;
+  border-top: 0.5px solid;
+  border-left: 0.5px solid;
+  border-color: #FFFFFF;
+
+}
+
+#titulo3
+{
+  text-align: center;
+  font-family: Gabriola;
+  font-size: 50px;
+  color: #FFFFFF;
+
+}
+
+#promocion1
+{
+  font-family: Gabriola;
+  text-align: justify;
+  margin: 20px;
+  font-size: 30px;
+}
+
+/*DISEÑAMOS LA CAJA DE LA 2DA PROMOCION, EL TITULO Y LA INFORMACIÓN*/
+.CajaPromo2
+{
+  width: 350px;
+  height: 400px;
+  margin-left: 200px;
+  display: inline-block;
+  background-color: #FFE153;
+  opacity: 0.88;
+  box-shadow: #FFFFFF 20px 20px 10px;
+  border-top: 0.5px solid;
+  border-left: 0.5px solid;
+  border-color: #FFFFFF;
+
+}
+
+#titulo4
+{
+  text-align: center;
+  font-family: Gabriola;
+  font-size: 50px;
+  color: #FFFFFF;
+
+}
+
+#promocion2
+{
+  font-family: Gabriola;
+  text-align: justify;
+  margin: 20px;
+  font-size: 30px;
+}
+
+/*DISEÑAMOS LA CAJA DE LA 3RA PROMOCION, EL TITULO Y LA INFORMACIÓN*/
+.CajaPromo3
+{
+  width: 350px;
+  height: 500px;
+  margin-left: 200px;
+  margin-top: 50px;
+  display: inline-block;
+  background-color: #F88017;
+  opacity: 0.88;
+  box-shadow: #FFFFFF 20px 20px 10px;
+  border-top: 0.5px solid;
+  border-left: 0.5px solid;
+  border-color: #FFFFFF;
+
+}
+
+#titulo5
+{
+  text-align: center;
+  font-family: Gabriola;
+  font-size: 50px;
+  color: #FFFFFF;
+
+}
+
+#promocion3
+{
+  font-family: Gabriola;
+  text-align: justify;
+  margin: 20px;
+  font-size: 30px;
+}
+
+/*DISEÑAMOS LA CAJA DE LA 4TA PROMOCION, EL TITULO Y LA INFORMACIÓN*/
+.CajaPromo4
+{
+  width: 350px;
+  height: 500px;
+  margin-left: 700px;
+
+  margin-top: -500px;
+  margin-bottom: 50px;
+
+  background-color: #FF79BC;
+  opacity: 0.88;
+  box-shadow: #FFFFFF 20px 20px 10px;
+  border-top: 0.5px solid;
+  border-left: 0.5px solid;
+  border-color: #FFFFFF;
+
+}
+
+#titulo6
+{
+  text-align: center;
+  font-family: Gabriola;
+  font-size: 50px;
+  color: #FFFFFF;
+
+}
+
+#promocion4
+{
+  font-family: Gabriola;
+  text-align: justify;
+  margin: 20px;
+  font-size: 30px;
+}
